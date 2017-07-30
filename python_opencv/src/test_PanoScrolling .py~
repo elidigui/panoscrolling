@@ -1,0 +1,11 @@
+
+# import the necessary packages
+import PanoScrolling
+import unitest
+
+# load the image and show it
+image = cv2.imread("..\..\cas\cas01\socoro.jpg")
+cropped = image[70:170, 440:540]
+#cv2.imshow("cropped", cropped)
+#cv2.waitKey(0)
+cv2.imwrite("../../cas/cas01/tmp.jpg",cropped)

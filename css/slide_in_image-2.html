@@ -1,0 +1,28 @@
+<style style="text/css">
+div.slide-slow {
+  width:200pix;
+  height:100pix;
+  overflow:hidden;
+}
+div.slide-slow div.inner {
+  animation: slide-slow 30s;
+  margin-top:1000pix;
+}
+
+
+@keyframes slide-slow {
+  from {
+    margin-left: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+  }
+}
+</style>
+
+<div class="slide-slow">
+<div class="inner">
+<img src="rub.gif" alt="bear">
+</div>
+</div>
